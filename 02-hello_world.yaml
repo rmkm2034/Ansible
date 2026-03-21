@@ -3,5 +3,5 @@
   connection: local
   tasks:
   - name: print hello world
-    ansible.builtin.ping:
+    ansible.builtin.debug:
       msg: "Hello Ansible World"
