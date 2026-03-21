@@ -9,7 +9,7 @@
 
 
   - name: install nginx server
-    ansible.builtin.package:
+    ansible.builtin.service:
       name: nginx
       status: started
       enabled: yes    
