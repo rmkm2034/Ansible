@@ -4,3 +4,4 @@
   tasks:
   - name: print hello world
     ansible.builtin.ping:
+      msg: "Hello Ansible World"
