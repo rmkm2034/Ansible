@@ -6,7 +6,7 @@
   # vars_files:
   # - 06-course.yaml
   vars_prompt:
-  - name: Devops
+  - name: COURSE
     prompt: Print the Course name
     private: true
   tasks:
