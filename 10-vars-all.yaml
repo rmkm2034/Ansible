@@ -5,10 +5,10 @@
     COURSE: Devops Engineer from Play
   # vars_files:
   # - 06-course.yaml
-  vars_prompt:
-  - name: COURSE
-    prompt: Print the Course name
-    private: true
+  # vars_prompt:
+  # - name: COURSE
+  #   prompt: Print the Course name
+  #   private: true
   tasks:
   - name: Print the variables
     # vars:
