@@ -3,8 +3,8 @@
   connection: local
   vars:
     COURSE: Devops Engineer from Play
-  vars_files:
-  - 06-course.yaml
+  # vars_files:
+  # - 06-course.yaml
   vars_prompt:
   - name: Devops
     prompt: Print the Course name
