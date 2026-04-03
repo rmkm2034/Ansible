@@ -12,7 +12,7 @@
   tasks:
   - name: Print the variables
     vars:
-      COURSE: "Hello from task"
+      COURSE: "Hey from task"
     ansible.builtin.debug:
       msg: "{{ COURSE }}"
 
