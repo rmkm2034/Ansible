@@ -3,13 +3,13 @@
   Connection: local
 
   vars:
-    Course: Devops Engineer
+    COURSE: Devops Engineer from Play
 
   vars_files:
-  06-course.yaml
+  - 06-course.yaml
 
   vars_prompt:
-  - Course: Devops
+  - COURSE: Devops
     Prompt: Print the Course name
     private: true
 
