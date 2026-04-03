@@ -1,18 +1,18 @@
 - name: variables by Preferences
   hosts: local
-  Connection: local
+  connection: local
   vars:
     COURSE: Devops Engineer from Play
   vars_files:
   - 06-course.yaml
   vars_prompt:
-  - COURSE: Devops
-    Prompt: Print the Course name
+  - name: Devops
+    prompt: Print the Course name
     private: true
   tasks:
   - name: Print the variables
     ansible.builtin.debug:
-      msg: "Course Name is: {{ Course }},  Duration: {{ DURATION }}, Trainer Name: {{ TRAINER }}"
+      msg: "Course Name is: {{ COURSE }},  Duration: {{ DURATION }}, Trainer Name: {{ TRAINER }}"
 
 
 
